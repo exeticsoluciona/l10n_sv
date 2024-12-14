@@ -9,8 +9,8 @@
                 <data>
                     <field name="vat" position="after">
 <!--                        <field name="dui"/>-->
-                        <field name="numero_registro"/>
-                        <field name="codigo_actividad"/>
+                        <field name="numero_registro" groups="l10n_sv.group_fel_restricted_fields_sv"/>
+                        <field name="codigo_actividad" groups="l10n_sv.group_fel_restricted_fields_sv"/>
                     </field>
 <!--                    <field name="vat" position="after">-->
 <!--                        <field name="dui"/>-->

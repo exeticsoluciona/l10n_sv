@@ -5,6 +5,7 @@ import logging
 
 class GiroNegocio(models.Model):
     _name = 'sv.giro_negocio'
+    _description = 'sv.giro_negocio'
 
     name = fields.Char("Nombre", required=True)
     codigo = fields.Char("Código")

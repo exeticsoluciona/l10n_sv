@@ -23,10 +23,12 @@ Flag icon: By Cobaltous - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/
 
 Agrega una nomenclatura contable para El Salvador. También icluye impuestos.
 Adds accounting chart for El Salvador. It also includes taxes.""",
-    'author': 'José Rodrigo Fernández Menegazzo',
-    'website': 'http://www.aquih.com/',
+      'author': 'Alexander Garzo',
+    'website': 'http://integrall.solutions/',
     'depends': ['base', 'account'],
     'data': [
+        'data/sv_group.xml',
+        'data/sv_group.xml',
         'data/l10n_sv_chart_data.xml',
         'data/account.account.template.csv',
         'data/l10n_sv_chart_post_data.xml',
@@ -34,5 +36,7 @@ Adds accounting chart for El Salvador. It also includes taxes.""",
         'data/account_chart_template_data.xml',
         'views/partner_views.xml',
         'security/ir.model.access.csv',
+
     ],
+'license': 'LGPL-3',
 }
